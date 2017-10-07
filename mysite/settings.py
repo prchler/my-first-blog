@@ -25,7 +25,9 @@ SECRET_KEY = '1-latvmwvetzgyf*!*ldle(#e6ts#x(z(-931(gmz8-a(5zyyx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["prchler.pythonanywhere.com"]
+ALLOWED_HOSTS = ["prchler.pythonanywhere.com",
+                 "127.0.0.1"
+                 ]
 
 
 # Application definition
