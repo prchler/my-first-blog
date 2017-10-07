@@ -3,6 +3,10 @@ h1 a {
     font-family: 'Cinzel';
 }
 body {
+
+background: #FAD8F7 ;
+ font-family: 'Alice';
+color: #F0E7F8
     padding-left: 15px;
 }
 .page-header {
@@ -12,7 +16,7 @@ body {
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #6C4090;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -52,4 +56,5 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #1583F1;
     font-family: 'Tinos';
+
 }
