@@ -7,7 +7,11 @@
                 {{ post.published_date }}
             </div>
             <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+            {% if post.text|length > 150 %}
+            <p>{{ post.text|truncatechars:150 }}...</p>
+            {% else %}
             <p>{{ post.text|linebreaksbr }}</p>
+            {% endif %}
         </div>
     {% endfor %}
 {% endblock %}
